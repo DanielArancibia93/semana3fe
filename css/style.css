@@ -1,0 +1,47 @@
+.caja{
+    height: 500px;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    
+}
+
+.caja img{
+    width: 50px;
+    
+}
+
+.cuenta{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cuenta img{
+    width: 60px;
+    border-radius: 100px;
+    margin-right: 12px;
+    border: 1px black solid;
+}
+
+.caja2{
+    background-color: beige;
+    border-radius: 20px;
+    padding: 15px;
+    border: 1px black solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    box-shadow: 5px 5px 15px black;
+}
+
+.caja2 span{
+    font-weight: 530;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
